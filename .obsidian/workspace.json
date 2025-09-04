@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "4d3ad572a9f08b19",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd3565d00f85789",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55dd09a1abb47c8e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "图片/8a97c735d4d236546e7611b924e29548.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "8a97c735d4d236546e7611b924e29548"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2028a35efc3b0c52",
+    "type": "split",
+    "children": [
+      {
+        "id": "22785386dd40217d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "400be9c6de42cc50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fbb1928416166a3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "adaedd654fcd3108",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "678a9471f0493cd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fd700969842ba78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0884a0c9316cecfb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "首页.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "首页 的反向链接列表"
+            }
+          },
+          {
+            "id": "55249bba688b7bd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "首页.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "首页 的出链列表"
+            }
+          },
+          {
+            "id": "d13b0608952273c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b34f8a87295cc33b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "首页.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "首页 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "55dd09a1abb47c8e",
+  "lastOpenFiles": [
+    "首页.md",
+    "职业百科/制造业/义乌制衣厂质检.md",
+    "职业百科/制造业/义乌制衣厂普工.md",
+    "职业百科/制造业/汽车总装技师.md",
+    "职业百科/制造业/义乌制衣厂质检 1.md",
+    "职业百科/制造业/制造行业目录.md",
+    "未命名.md",
+    "真人故事集",
+    "探索工具/模板合集/职业百科模板.md",
+    "职业百科/互联网/功能测试.md",
+    "编辑职业词条指南.md",
+    "查看完整更新日志.md",
+    "职业百科/互联网/安服工程师（甲方）.md",
+    "职业百科/互联网/网络管理员.md",
+    "探索工具/行业和公司认识工具（长期更新，欢迎大家进行接力）.md",
+    "探索工具/自我认知工具.md",
+    "职业百科/互联网/互联网行业目录.md",
+    "探索工具/模板合集/体验日记模板.md",
+    "探索工具/模板合集/访谈报告模板.md",
+    "管理规范/内容贡献协议.md",
+    "探索工具/模板合集",
+    "图片/8a97c735d4d236546e7611b924e29548.jpg",
+    "8a97c735d4d236546e7611b924e29548.jpg",
+    "8a97c735d4d236546e7611b924e29548 1.jpg",
+    "图片",
+    "数据使用准则.md",
+    "职业百科/互联网/安服工程师（甲方）.pdf",
+    "2025-08-12.md",
+    "职业百科/行业分类导航.md",
+    "职业百科/教育",
+    "职业百科/互联网/产品经理 1.md",
+    "讨论区.md",
+    "体验日记模板.md",
+    "职业百科/金融/新建 文本文档.txt",
+    "职业百科/互联网/新建 文本文档.txt",
+    "探索工具/体验日记模板.txt",
+    "探索工具/新建 文本文档.txt",
+    "编辑职业词条指南.txt"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "技能要求": "multitext",
+    "行业": "multitext",
+    "常见从业背景": "multitext",
+    "更新时间": "datetime"
+  }
+}
