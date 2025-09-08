@@ -20,7 +20,7 @@
 
 - **直接浏览 (Browse on GitHub)**：你可以直接在 GitHub 上点击文件，阅读我们已经收录的职业报告和行业信息。
     
-- **参与讨论 (Join Discussions)**：在 [Issues](https://www.google.com/search?q=https://github.com/your-username/your-repo/issues) 中向我们提问，或分享你的职业困惑。
+- **参与讨论 (Join Discussions)**：在 [Issues](https://www.google.com/search?q=https://github.com/windmoon-Lotus/Career-Information-Sharing/issues) 中向我们提问，或分享你的职业困惑。
     
 - **使用工具 (Use Tools)**：在 `Tools` 文件夹中查找可能对你有帮助的自我认知问卷或信息搜集模板。
     
