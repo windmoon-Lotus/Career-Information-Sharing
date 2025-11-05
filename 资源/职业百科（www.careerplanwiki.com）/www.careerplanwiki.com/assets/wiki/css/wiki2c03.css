@@ -1,0 +1,18 @@
+.dashline {
+  height: 30px;
+  margin: 20px 0;
+  background: #fff url("../images/dashline.png") repeat-x center;
+}
+.dashline h2 {
+  background: #fff;
+  border-left: 4px solid #5790d3;
+  float: left;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.clear-both {
+  clear: both;
+}

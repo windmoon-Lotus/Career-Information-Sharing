@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "自我和方向性认知工具（长期更新，欢迎大家进行接力）"
             }
+          },
+          {
+            "id": "4090117f2ccccf8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "a70a1f4ce278e5d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "资源/随笔/县中孩子长大后的感慨（一）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "县中孩子长大后的感慨（一）"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,45 +199,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "55dd09a1abb47c8e",
+  "active": "a70a1f4ce278e5d1",
   "lastOpenFiles": [
+    "职业百科共创官招募.md",
+    "资源/随笔/县中孩子长大后的感慨（一）.md",
+    "资源/随笔",
+    "资源/新建文件夹",
+    "README.md",
+    "职业百科/互联网/安服工程师（甲方）.md",
+    "职业百科/互联网/产品运营.md",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/uploads/ueditor/image/20180403/1522755721195293.jpg",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/uploads/ueditor/image/20180403/1522755701585428.jpg",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/uploads/ueditor/image/20171229/1514543451874607.jpg",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regulard41d.eot",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regular.woff",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regular.svg",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regular.eot",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/common/css/swiper/swiper2c03.css.z",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/common/css/swiper/swiper2c03.css",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/css/bootstrap.min2c03.css.z",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/css/bootstrap.min2c03.css",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/img/icon_close.png",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/img/gaokao_fe2.png",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/images/tt-bg.png",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/images/dashline.png",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/images/bg2.jpg",
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/images/background_trade.jpg",
+    "职业百科/互联网/互联网行业目录.md",
+    "职业百科/互联网/功能测试.md",
+    "职业百科/互联网/网络管理员.md",
     "探索工具/行业和公司认识工具（长期更新，欢迎大家进行接力）.md",
     "探索工具/自我和方向性认知工具（长期更新，欢迎大家进行接力）.md",
     "首页.md",
-    "职业百科/互联网/互联网行业目录.md",
-    "职业百科/互联网/功能测试.md",
     "趣味知识/每个人的经济学：五种失业模式和失业统计小知识.md",
-    "未命名.md",
-    "趣味知识",
     "().md",
     "README.md.md",
     "探索工具/模板合集/职业百科模板.md",
     "探索工具/模板合集/问卷调查.md",
-    "真人故事集/互联网",
-    "真人故事集/新建文件夹",
     "共创任务专区.md",
-    "图片/8a97c735d4d236546e7611b924e29548.jpg",
     "探索工具/模板合集/访谈报告模板.md",
     "职业百科/制造业/制造行业目录.md",
     "职业百科/制造业/汽车总装技师.md",
     "职业百科/制造业/义乌制衣厂普工.md",
     "职业百科/制造业/义乌制衣厂质检.md",
-    "职业百科/互联网/网络管理员.md",
-    "职业百科/互联网/安服工程师（甲方）.md",
     "探索工具/模板合集/体验日记模板.md",
     "管理规范/内容贡献协议.md",
     "职业百科/制造业/义乌制衣厂质检 1.md",
-    "真人故事集",
-    "编辑职业词条指南.md",
-    "查看完整更新日志.md",
-    "探索工具/模板合集",
-    "8a97c735d4d236546e7611b924e29548.jpg",
-    "8a97c735d4d236546e7611b924e29548 1.jpg",
-    "图片",
-    "数据使用准则.md",
-    "职业百科/互联网/安服工程师（甲方）.pdf",
-    "职业百科/教育",
-    "职业百科/金融/新建 文本文档.txt",
-    "职业百科/互联网/新建 文本文档.txt"
+    "编辑职业词条指南.md"
   ]
 }

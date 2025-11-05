@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	
+<!-- Mirrored from www.careerplanwiki.com/company by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Sep 2025 09:25:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="HandheldFriendly" content="True">
+		<title>企业百科-职业规划百科</title>
+		<meta name="keywords" content="职业规划百科,职业规划，职业，求职，高考，升学，跳槽"/>
+		<meta name="description" content="职业生涯规划百科企业频道为你详细介绍各个行业内的数百家领先企业，以独特的视角带你重新认识企业，发现新的发展机会。整合求职信息、攻略，将你从繁琐的查询、筛选工作中解脱出来">
+		<link rel="stylesheet" type="text/css" href="assets/wiki/bootstrap/css/bootstrap.min2c03.css?v=1.0-20200221-1335" />
+		<link rel="stylesheet" type="text/css" href="assets/wiki/iconfont/iconfont2c03.css?v=1.0-20200221-1335" />
+		<link rel="stylesheet" type="text/css" href="assets/wiki/css/style2c03.css?v=1.0-20200221-1335" />
+		<link rel="stylesheet" type="text/css" href="assets/common/css/swiper/swiper2c03.css?v=1.0-20200221-1335" />
+	</head>
+	<body>
+		<header class="header">
+	<nav class="navbar navbar-default">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">切换导航</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="javascript:;">职业百科</a>
+	  </div>
+	  <div class="container">
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li ><a href="home.html">首页</a></li>
+	        <li ><a href="school.html">高校百科</a></li>
+	        <li ><a href="major.html">专业百科</a></li>
+	        <li ><a href="trade.html">行业百科</a></li>
+	        <li  class="active" ><a href="company.html">企业百科</a></li>
+	        <li ><a href="position.html">职位百科</a></li>
+	        <li class="hidden-sm"><a href="wiki/%e5%a4%a7%e5%ad%a6%e7%94%9f%e6%af%94%e8%b5%9b.html">高校比赛</a></li>
+	        <li class="hidden-sm"><a href="wiki/%e5%85%b3%e4%ba%8e%e6%88%91%e4%bb%ac.html">关于我们</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+</header>
+		<!-- 职位百科 -->
+		<div class="container school">
+			<div class="row content-search">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="form-group">
+						<label for="search" class="col-sm-3 control-label">Career Planning</label>
+				    	<div class="col-sm-9 input-group">
+							<input name="search" type="text" id="search-content" class="form-control"/>
+							<div class="input-group-addon" id="search-btn">百科搜索</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row school-list">
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="menu-title"><i class="glyphicon glyphicon-th-list"></i> 筛选企业</div>
+					<ul class="conditions_list select_box">
+						<li data-type="trade">
+							<a href="#"><i class="more_sj"></i><span id="trade-title">所属行业</span></a> 
+							<div class="menu-bd-box rows2 right-box" id="trades"></div>
+						</li> 
+						<li data-type="area" class="select_title">
+							<a href="javascript:;"><i class="more_sj"></i><span class="txt_value" id="area-title">企业所在地</span></a> 
+							<span class="icon delete_icon" style="display: none;"></span> 
+							<div class="r_cbox_wrap right-box" id="filter-areas"></div>
+						</li> 
+						<li data-type="scale">
+							<a href="#"><i class="more_sj"></i><span id="scale-title">公司规模</span></a> 
+							<div class="menu-bd-box rows2 right-box" id="scales"></div>
+						</li> 
+						<li data-type="property">
+							<a href="#"><i class="more_sj"></i><span id="property-title">公司性质</span></a> 
+							<div class="menu-bd-box rows2 right-box" id="propertys"></div>
+						</li> 
+						<li data-type="financing">
+							<a href="#"><i class="more_sj"></i><span id="financing-title">融资阶段</span></a> 
+							<div class="menu-bd-box rows2 right-box" id="financings"></div>
+						</li> 
+					</ul>
+				</div>
+				<div class="col-md-10 col-sm-8 col-xs-12" id="data-list"></div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="page text-center" id="page-list"></div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+	<div class="container">
+		<ul class="nav navbar-nav hidden-xs">
+			<li><a href="wiki/%e5%85%b3%e4%ba%8e%e6%88%91%e4%bb%ac.html">广告合作</a></li>
+			<li><a href="wiki/%e5%8f%8b%e6%83%85%e9%93%be%e6%8e%a5.html">友情链接</a></li>
+			<li><a href="wiki/%e6%9d%83%e5%88%a9%e9%80%9a%e7%9f%a5.html">权利通知</a></li>
+			<li><a href="wiki/%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96.html">隐私政策</a></li>
+		</ul>
+		<div class="pull-right"> © 2008-2017 <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备17067620号</a> <span class="hidden-xs">Powered by OOYYEE</span></div>
+	</div>
+</footer>
+
+<!-- 登录弹出框 -->
+<!--div class="login-modal modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        	<div class="modal-head">
+        		<span>会员登录</span>
+        		<span aria-hidden="true" class="close" data-dismiss="modal">&times;</span>
+        	</div>
+        	<div class="modal-body">
+        		<form action="center.html" method="post" class="form-horizontal">
+        			<div class="form-group">
+        				<label class="sr-only" for="login_mobile">手机号</label>
+					    <div class="input-group">
+					      	<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+					      	<input type="text" class="form-control" name="mobile" id="login_mobile" placeholder="请输入您的手机号" />
+					    </div>
+        			</div>
+        			<div class="form-group">
+        				<label class="sr-only" for="login_password">密码</label>
+					    <div class="input-group">
+					      	<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+					      	<input type="password" class="form-control" name="password" id="login_password" placeholder="请输入您的密码" />
+					    </div>
+        			</div>
+        			<div class="form-group">
+        				<button class="btn form-btn" type="button" id="login-btn">登录</button>
+        			</div>
+        		</form>
+        		<div class="form-link">
+        				<a href="javascript:;">忘记密码?</a>
+        				<a href="javascript:;" id="login-to-register">立即注册</a>
+       			</div>
+       			<div class="orther"></div>
+        	</div>
+        </div>
+    </div>
+</div-->
+
+
+<!-- 注册弹出框 -->
+<!--div class="register-modal modal fade" id="register-modal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        	<div class="modal-head">
+        		<span>会员注册</span>
+        		<span aria-hidden="true" class="close" data-dismiss="modal">&times;</span>
+        	</div>
+        	<div class="modal-body">
+        		<form action="center.html" method="post" class="form-horizontal">
+        			<div class="form-group">
+        				<label class="sr-only" for="register_mobile">手机号</label>
+					    <div class="input-group">
+					      	<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+					      	<input type="text" class="form-control" name="mobile" id="register_mobile" placeholder="请输入您的手机号" />
+					    </div>
+        			</div>
+        			<div class="form-group clearfix">
+        				<label class="sr-only" for="register_sncode">短信验证码</label>
+				    	<div class="input-group col-sm-6 col-xs-6" style="float: left;">
+			    			<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+			      			<input type="password" class="form-control" name="sncode" id="register_sncode" placeholder="请输入手机验证码" />
+			    		</div>
+			    		<div class="input-group col-sm-6 col-xs-6">
+			    			<button type="button" class="btn sms-btn" id="send-sms">点击获取验证码</button>
+			    		</div>
+        			</div>
+        			<div class="form-group">
+        				<label class="sr-only" for="register_password">密码</label>
+					    <div class="input-group">
+					      	<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+					      	<input type="password" class="form-control" name="password" id="register_password" placeholder="请输入您的密码" />
+					    </div>
+        			</div>
+        			<div class="form-group">
+        				<label class="sr-only" for="register_password2">确认密码</label>
+					    <div class="input-group">
+					      	<div class="input-group-addon"><i class="icon iconfont icon-shetuanchengyuan"></i></div>
+					      	<input type="password" class="form-control" name="password2" id="register_password2" placeholder="请再次输入您的密码" />
+					    </div>
+        			</div>
+        			<div class="form-group">
+        				<button class="btn form-btn" type="button">立即注册</button>
+        			</div>
+        		</form>
+        		<div class="form-link">
+       				<a href="javascript:;" id="register-to-login">已有帐号?立即登录</a>
+       			</div>
+       			<div class="orther"></div>
+        	</div>
+        </div>
+    </div>
+</div-->
+		
+		<!-- 数据模版 -->
+		<script id="template-data" type="text/html">
+			<div class="row data-list">
+				<% if (data.length == 0) {%>
+					<div class="col-md-12 col-xs-12 data-empty">没有数据(*^__^*)</div>
+				<% }else { %>
+					<% for (i in data) {%>
+					<div class="col-md-6 col-sm-12 col-xs-12 data-item">
+						<div class="item clearfix">
+							<div class="img-box">
+								<a href="{{data[i]._href}}">
+									<% if (data[i].logo){ %>
+									<img src="{{data[i].logo}}" class="img-circle"/>
+									<% }else{ %>
+									<img src="/assets/wiki/images/default.png" class="img-circle"/>
+									<% } %>
+								</a>
+							</div>
+							<div class="info-box">
+								<div class="title"><a href="{{data[i]._href}}">{{data[i].name}}</a></div>
+								<p class="tags">
+									<% if (data[i]._trade) { %>
+									<span>{{data[i]._trade}}</span>
+									<% } %>
+									<% if (data[i]._scale) { %>
+									<span>{{data[i]._scale}}</span>
+									<% } %>
+									<% if (data[i]._province) { %>
+									<span>{{data[i]._province}}</span>
+									<% } %>
+								</p>
+							</div>
+							<div class="collect-box">
+								<div>
+									<div class="box-content">
+										<% if(data[i].is_collect){ %>
+											<i class="glyphicon glyphicon-star"></i>
+											<button class="btn btn-default cancel-collect-btn">已收藏</button>
+										<% } else { %>
+											<i class="glyphicon glyphicon-star-empty"></i>
+											<button class="btn btn-default collect-btn">收藏</button>
+										<% }%>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<% } %>
+				<% } %>
+			</div>
+		</script>
+		
+		<!-- 城市筛选模版 -->
+		<script id="template-area" type="text/html">
+			<div class="r_cbox_insbox">
+				<div class="unlimited_box">
+					<div class="a_cbox_wrap">
+						<div class="a_cbox">
+							<i class="cbox_icon cbox_icon_ck"></i><span class="cbox_txt">不限</span>
+						</div>
+					</div>
+					<button type="button" class="close hidden-sm hidden-md" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div> 
+				<div class="scroll_box card-area-plug jspScrollable">
+					<div class="jspContainer">
+						<div class="jspPane">
+							<div class="a_type clearfix">
+								<% for (i in data){ %>
+								<div>
+									<div class="classes_box" data-value="{{data[i].id}}">
+										<div class="a_cbox_wrap">
+											<div class="a_cbox">
+												<i class="cbox_icon"></i><span title="{{data[i].title}}" class="cbox_txt">{{data[i].title}}：</span>
+											</div>
+										</div>
+									</div> 
+									<div class="details_box clearfix">
+										<% for( c in data[i].children){ %>
+										<div class="a_cbox_wrap" data-value="{{data[i].children[c].id}}">
+											<div class="a_cbox">
+												<i class="cbox_icon"></i><span class="cbox_txt" title="{{data[i].children[c].title}}">{{data[i].children[c].title}}</span>
+											</div>
+										</div>
+										<% } %>
+									</div>
+								</div>
+								<% } %>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+			<i class="left_line" style="top: 116px;"></i>
+		</script>
+		
+		<!-- 公司规模筛选模版 -->
+		<script id="template-trade" type="text/html">
+			<i class="left_line"></i> 
+			<ul class="menu-bd">
+				<% for(i in data){%>
+				<li data-value="{{data[i].id}}"><a href="javascript:;">{{data[i].name}}</a></li>
+				<% } %>
+			</ul>
+		</script>
+		
+		<!-- 公司规模筛选模版 -->
+		<script id="template-scale" type="text/html">
+			<i class="left_line"></i> 
+			<ul class="menu-bd">
+				<% for(i in data){%>
+				<li data-value="{{data[i].id}}"><a href="javascript:;">{{data[i].title}}</a></li>
+				<% } %>
+			</ul>
+		</script>
+		
+		<!-- 公司性质筛选模版 -->
+		<script id="template-property" type="text/html">
+			<i class="left_line"></i> 
+			<ul class="menu-bd">
+				<% for(i in data){%>
+				<li data-value="{{data[i].id}}"><a href="javascript:;">{{data[i].title}}</a></li>
+				<% } %>
+			</ul>
+		</script>
+		
+		<!-- 融资阶段筛选模版 -->
+		<script id="template-financing" type="text/html">
+			<i class="left_line"></i> 
+			<ul class="menu-bd">
+				<% for(i in data){%>
+				<li data-value="{{data[i].id}}"><a href="javascript:;">{{data[i].title}}</a></li>
+				<% } %>
+			</ul>
+		</script>
+		
+		<!-- 分页模版 -->
+		<script id="template-page" type="text/html">
+			<% if (data.pages.length > 1) {%>
+			<nav aria-label="Page navigation">
+			  <ul class="pagination">
+			    
+			    <li <% if(data.currentPage == 1) {%> class="disabled" <% }else{ %> class="pages" data-page="first" <% } %> >
+			      <a href="javascript:;">
+			        <span>首页</span>
+			      </a>
+			    </li>
+			    <li <% if(data.currentPage == 1) {%> class="disabled" <% }else{ %> class="pages" data-page="prev" <% } %> >
+			      <a href="javascript:;">
+			        <span>上一页</span>
+			      </a>
+			    </li>
+			    <% for (i in data.pages){ %>
+			    	<% if (data.pages[i] == data.currentPage){ %>
+			    	<li class="active"><a href="javascript:;">{{data.pages[i]}}</a></li>
+			    	<% } else { %>
+			    		<li class="pages hidden-xs" data-page="{{data.pages[i]}}"><a href="javascript:;">{{data.pages[i]}}</a></li>
+			    	<% } %>
+			    <% } %>
+			    <li <% if(data.currentPage == data.totalPage) {%> class="disabled" <% }else{ %> class="pages" data-page="next" <% } %>>
+			      <a href="javascript:;">
+			        <span>下一页</span>
+			      </a>
+			    </li>
+			    <li <% if(data.currentPage == data.totalPage) {%> class="disabled" <% }else{ %> class="pages" data-page="last" <% } %>>
+			      <a href="javascript:;">
+			        <span>末页</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+			<% } %>
+		</script>
+	</body>
+	<script type="text/javascript" src="assets/common/js/sea-debug2c03.js?v=1.0-20200221-1335"></script><script type="text/javascript" src="assets/wiki/js/sea.config2c03.js?v=1.0-20200221-1335"></script>
+	<script type="text/javascript">
+		var options = {"trades":[{"id":0,"name":"所属行业"},{"id":61,"name":"先进制造","create_time":1659743267,"sort":1,"hot":0,"trade":0,"update_time":1659743267},{"id":76,"name":"企业服务","create_time":1659950831,"sort":2,"hot":0,"trade":0,"update_time":1659950890},{"id":63,"name":"医疗健康","create_time":1659874389,"sort":3,"hot":0,"trade":0,"update_time":1659874389},{"id":68,"name":"电商零售","create_time":1659943321,"sort":4,"hot":0,"trade":0,"update_time":1659943321},{"id":64,"name":"汽车交通","create_time":1659933455,"sort":5,"hot":0,"trade":0,"update_time":1659933455},{"id":66,"name":"金融","create_time":1659936557,"sort":6,"hot":0,"trade":0,"update_time":1659936557},{"id":77,"name":"本地生活","create_time":1659951148,"sort":7,"hot":0,"trade":0,"update_time":1659951148},{"id":78,"name":"教育","create_time":1659951265,"sort":8,"hot":0,"trade":0,"update_time":1659951265},{"id":10,"name":"智能硬件","create_time":1515036347,"sort":9,"hot":0,"trade":0,"update_time":1659952356},{"id":48,"name":"游戏","create_time":1531189559,"sort":10,"hot":0,"trade":0,"update_time":1659952367},{"id":67,"name":"文娱传媒","create_time":1659941951,"sort":11,"hot":0,"trade":0,"update_time":1659941951},{"id":69,"name":"体育运动","create_time":1659945917,"sort":12,"hot":0,"trade":0,"update_time":1659945917},{"id":65,"name":"物流","create_time":1659935044,"sort":13,"hot":0,"trade":0,"update_time":1659935085},{"id":70,"name":"房产服务","create_time":1659947994,"sort":14,"hot":0,"trade":0,"update_time":1659947994},{"id":71,"name":"社交网络","create_time":1659948423,"sort":15,"hot":0,"trade":0,"update_time":1659948423},{"id":72,"name":"广告营销","create_time":1659948728,"sort":16,"hot":0,"trade":0,"update_time":1659948728},{"id":73,"name":"旅游","create_time":1659949821,"sort":17,"hot":0,"trade":0,"update_time":1659949821},{"id":74,"name":"工具软件","create_time":1659949900,"sort":18,"hot":0,"trade":0,"update_time":1659949900},{"id":75,"name":"农业","create_time":1659950540,"sort":19,"hot":0,"trade":0,"update_time":1659950540},{"id":80,"name":"区块链","create_time":1659977768,"sort":20,"hot":0,"trade":0,"update_time":1659977768},{"id":81,"name":"传统制造","create_time":1659978423,"sort":21,"hot":0,"trade":0,"update_time":1659978423},{"id":79,"name":"元宇宙","create_time":1659975952,"sort":22,"hot":0,"trade":0,"update_time":1659975952}],"areas":[{"id":0,"title":"热门城市","children":[{"id":35,"title":"北京市"},{"id":37,"title":"天津市"},{"id":73,"title":"沈阳市"},{"id":109,"title":"上海市"},{"id":111,"title":"南京市"},{"id":115,"title":"苏州市"},{"id":124,"title":"杭州市"},{"id":206,"title":"武汉市"},{"id":234,"title":"广州市"},{"id":236,"title":"深圳市"},{"id":273,"title":"重庆市"},{"id":275,"title":"成都市"}]},{"id":1,"title":"华北","children":[{"id":1,"title":"北京市"},{"id":2,"title":"天津市"},{"id":3,"title":"河北省"},{"id":4,"title":"山西省"},{"id":5,"title":"内蒙古自治区"}]},{"id":2,"title":"东北","children":[{"id":6,"title":"辽宁省"},{"id":7,"title":"吉林省"},{"id":8,"title":"黑龙江省"}]},{"id":3,"title":"华东","children":[{"id":9,"title":"上海市"},{"id":10,"title":"江苏省"},{"id":11,"title":"浙江省"},{"id":12,"title":"安徽省"},{"id":13,"title":"福建省"},{"id":14,"title":"江西省"},{"id":15,"title":"山东省"}]},{"id":4,"title":"华中","children":[{"id":16,"title":"河南省"},{"id":17,"title":"湖北省"},{"id":18,"title":"湖南省"}]},{"id":5,"title":"华南","children":[{"id":19,"title":"广东省"},{"id":20,"title":"广西壮族自治区"},{"id":21,"title":"海南省"}]},{"id":6,"title":"西南","children":[{"id":22,"title":"重庆市"},{"id":23,"title":"四川省"},{"id":24,"title":"贵州省"},{"id":25,"title":"云南省"},{"id":26,"title":"西藏自治区"}]},{"id":7,"title":"西北","children":[{"id":27,"title":"陕西省"},{"id":28,"title":"甘肃省"},{"id":29,"title":"青海省"},{"id":30,"title":"宁夏回族自治区"},{"id":31,"title":"新疆维吾尔自治区"}]}],"scales":[{"id":"0","title":"不限"},{"id":"1","title":"少于50人"},{"id":"2","title":"50-150人"},{"id":"3","title":"150-500人"},{"id":"4","title":"500-1000人"},{"id":"5","title":"1000-5000人"},{"id":"6","title":"5000-10000人"},{"id":"7","title":"10000人以上"}],"propertys":[{"id":0,"title":"公司性质不限"},{"id":1,"title":"外资(欧美)"},{"id":2,"title":"外资(非欧美)"},{"id":3,"title":"合资"},{"id":4,"title":"国企"},{"id":5,"title":"民营公司"},{"id":6,"title":"外企代表处"},{"id":7,"title":"政府机关"},{"id":8,"title":"事业单位"},{"id":9,"title":"非营利组织"},{"id":10,"title":"上市公司"},{"id":11,"title":"创业公司"}],"financings":[{"id":0,"title":"融资阶段不限"},{"id":1,"title":"未融资"},{"id":2,"title":"天使轮"},{"id":3,"title":"A轮"},{"id":4,"title":"B轮"},{"id":5,"title":"C轮"},{"id":6,"title":"D轮及以上"},{"id":7,"title":"上市公司"},{"id":8,"title":"不需要融资"}]};
+		var urls = {
+			dataUrl:"/company/data"
+		};
+		seajs.use(['main','company']);
+	</script>
+
+<!-- Mirrored from www.careerplanwiki.com/company by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Sep 2025 09:25:14 GMT -->
+</html>
