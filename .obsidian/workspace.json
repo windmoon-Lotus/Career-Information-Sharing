@@ -27,16 +27,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "原始资料/互联网/首次访谈-玩了一年多的功能测试.md",
+                "file": "真人故事集/互联网/访谈Secur1ty0的网安人生.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "首次访谈-玩了一年多的功能测试"
+              "title": "访谈Secur1ty0的网安人生"
+            }
+          },
+          {
+            "id": "d429bd618ff8c0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "原始资料/互联网/第二次访谈Secur1ty0的网安人生/问卷问题_Secur1ty0答.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "问卷问题_Secur1ty0答"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "678a9471f0493cd1",
@@ -186,11 +199,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c04be8987f15ad7d",
+  "active": "4090117f2ccccf8d",
   "lastOpenFiles": [
+    "真人故事集/互联网/访谈Secur1ty0的网安人生.md",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生/问卷问题_Secur1ty0答.md",
     "资源/随笔/windmoon-Lotus访谈复盘.md",
-    "职业百科/互联网/网络管理员.md",
     "原始资料/互联网/首次访谈-玩了一年多的功能测试.md",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生/访谈Secur1ty0的网安人生.md",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生/2026011101.7z",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生.zip",
+    "真人故事集/互联网/网安从业人员-计算机网络专业到安服人员的二三事（薪资变动为主线）.md",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生/二次访谈-Secur1ty0的网安人生.md",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生/2026011101.MP3",
+    "原始资料/互联网/第二次访谈Secur1ty0的网安人生",
+    "共创专区/模板/4C15BD00",
+    "共创专区/模板/职业信息问卷与访谈提纲.md",
+    "共创专区/模板/BD43D800",
+    "共创专区/模板/53B1D800",
+    "共创专区/模板/~$访谈问题确认清单.xlsx",
+    "共创专区/模板/访谈问题确认清单.xlsx",
+    "共创专区/模板/~建 Microsoft Excel 工作表.tmp",
+    "职业百科/互联网/网络管理员.md",
     "职业百科/互联网/安服工程师（甲方）.md",
     "职业百科/互联网/功能测试.md",
     "职业百科/互联网/产品运营.md",
@@ -200,28 +229,15 @@
     "职业百科/制造业/制造行业目录.md",
     "资源/随笔/县中孩子长大后的感慨（二）学习路上的误区.md",
     "共创专区/模板/职业百科模板.md",
-    "共创专区/模板/职业信息问卷与访谈提纲.md",
     "共创专区/模板/访谈报告模板-初版.md",
     "未命名.md",
-    "原始资料/互联网",
-    "未命名",
-    "原始资料",
     "真人故事集/互联网/测试工程师“拿了大礼包”之后：空窗期、游戏作息与回归工作的真实对话.md",
     "共创专区/进行中的项目/首次访谈问题纪要.md",
     "README.md",
     "探索工具/自我和方向性认知工具（长期更新，欢迎大家进行接力）.md",
     "探索工具/行业和公司认识工具（长期更新，欢迎大家进行接力）.md",
     "探索工具/IMA知识库更新.md",
-    "职业人生故事征集.md",
-    "探索工具/项目发展/项目发展规划.md",
-    "资源/随笔/县中孩子长大后的感慨（一）过往与未来.md",
-    "资源/随笔/郑雅君-金榜题名之后笔记.md",
-    "趣味知识/每个人的经济学：五种失业模式和失业统计小知识.md",
     "图片/Pasted image 20251220203337.png",
-    "探索工具/项目发展",
-    "项目成长方案",
-    "未命名.base",
-    "未命名 1.base",
     "未命名.canvas",
     "图片/Pasted image 20251210225536.png",
     "图片/Pasted image 20251126235032.png",
@@ -231,9 +247,6 @@
     "Pasted image 20251126234637.png",
     "Pasted image 20251126234748.png",
     "图片/8a97c735d4d236546e7611b924e29548.jpg",
-    "资源/随笔",
-    "资源/新建文件夹",
-    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/uploads/ueditor/image/20180403/1522755721195293.jpg",
-    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/assets/wiki/bootstrap/fonts/glyphicons-halflings-regulard41d.eot"
+    "资源/职业百科（www.careerplanwiki.com）/www.careerplanwiki.com/uploads/ueditor/image/20180403/1522755721195293.jpg"
   ]
 }
