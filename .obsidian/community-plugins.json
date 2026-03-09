@@ -2,5 +2,7 @@
   "dataview",
   "templater-obsidian",
   "drawio-obsidian",
-  "obsidian-enhancing-export"
+  "obsidian-enhancing-export",
+  "copy-as-html",
+  "obsidian-image-toolkit"
 ]
